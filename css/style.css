@@ -276,7 +276,7 @@ ul {
   padding-top: 2.7rem;
 }
 
-ul :nth-child(odd) {
+.footer__address-list ul :nth-child(odd) {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 1.4rem;
@@ -284,7 +284,7 @@ ul :nth-child(odd) {
   color: #fff;
 }
 
-ul :nth-child(even) {
+.footer__address-list ul :nth-child(even) {
   font-family: "Cormorant Garamond";
   font-weight: 400;
   font-size: 2.2rem;
@@ -329,8 +329,8 @@ textarea {
 }
 
 input:focus-visible,
-textarea:focus-visible{
-  outline:none;
+textarea:focus-visible {
+  outline: none;
 }
 
 textarea {
@@ -359,7 +359,7 @@ button {
 }
 
 .footer__hz {
-  height: 68rem;
+  height: 33rem;
   text-align: center;
   margin-top: 9.5rem;
 }
@@ -377,25 +377,92 @@ button {
   padding-left: 25px;
   font-family: "Cormorant Garamond";
   font-style: italic;
-  color: #CEB3CB;
+  color: #ceb3cb;
 }
 
-.footer__hz-options:hover{
-  background: #CEB3CB;
+.footer__hz-options:hover {
+  background: #ceb3cb;
   color: #fff;
   cursor: pointer;
 }
 
-.footer__hz-title{
+.footer__hz-title {
   font-size: 1.4rem;
-  font-family: "Roboto";  
-  color: #B99BB6;
+  font-family: "Roboto";
+  color: #b99bb6;
 }
 
-
-.footer__hz p{
+.footer__hz p {
   font-family: "Cormorant Garamond";
   font-size: 2.4rem;
-  color: #5F4D5D;
+  color: #5f4d5d;
   margin-bottom: 1.2rem;
+}
+
+.footer__info {
+  height: 23.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #d6bbd3;
+  color: #fff;
+}
+
+.footer__info-criteria {
+  padding-top: 4.6rem;
+  text-align: center;
+  height: 16.2rem;
+}
+
+.footer__info h2 {
+  font-size: 2.2rem;
+  font-family: "Cormorant Garamond";
+  font-weight: 400;
+}
+
+.footer__info p {
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.footer__nav {
+  background: #c9adc6;
+  height: 13.7rem;
+  width: 100%;
+  /* position: absolute;
+  bottom: -56rem; */
+}
+
+.footer__nav-list {
+  padding-top: 4rem;
+  padding-left: 11.3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer__nav-menu {
+  padding-left: 6.4rem;
+}
+
+.Facebook {
+  padding-left: 90rem;
+}
+
+.version__info {
+  width: 54.3rem;
+  color: #fff;
+  position: absolute;
+  bottom: -58rem;
+  left: 7.25rem;
+  font-size: 1.2rem;
+}
+
+.version__info li {
+  display: inline-block;
+}
+
+.back{
+  padding-left: 130rem;
 }
